@@ -23,7 +23,7 @@ app.use(
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
-app.use("/images", express.static(path.join(__dirname, "/images")));
+app.use("/images", express.static("https://mern-blog-api.onrender.com/images"));
 
 //////////------Routes----------//////////
 app.use("/api/login", loginRoute);
