@@ -17,7 +17,7 @@ const verifyJwt = require("./middlewares/verifyJwt");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://mern-blog.onrender.com",
   })
 );
 
